@@ -1,0 +1,22 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Git & IDE
+.git
+.gitignore
+.vscode
+.idea
+
+# Node / React
+reactapp1.client/node_modules
+reactapp1.client/dist
+
+# .NET build output
+**/bin
+**/obj
+
+# Local DBs / artifacts
+*.db
+*.sqlite
+*.log

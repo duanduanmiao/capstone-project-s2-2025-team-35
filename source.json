@@ -1,0 +1,21 @@
+{
+  "ImageRepository": {
+    "ImageIdentifier": "193452400698.dkr.ecr.ap-southeast-2.amazonaws.com/cems-team35-api:latest",
+    "ImageRepositoryType": "ECR",
+    "ImageConfiguration": {
+      "Port": "8080",
+      "RuntimeEnvironmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Production",
+        "ConnectionStrings__DefaultConnection": "Host=cems-db.ctyguk8uab1d.ap-southeast-2.rds.amazonaws.com;Port=5432;Database=cemsdb;Username=cems_admin;Password=cems_admin6god;SSL Mode=Require;Trust Server Certificate=True",
+        "Cors__AllowedOrigins": "https://d2ni1q59iz5w4p.cloudfront.net",
+        "Auth__Google__ClientId": "1020996365715-1v7hk27s14rddjueupb0ulgehc68rhrj.apps.googleusercontent.com",
+        "Auth__Google__ClientSecret": "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",
+        "Frontend__BaseUrl": "https://d2ni1q59iz5w4p.cloudfront.net"
+      }
+    }
+  },
+  "AuthenticationConfiguration": {
+    "AccessRoleArn": "arn:aws:iam::193452400698:role/cems-apprunner-ecr-access"
+  },
+  "AutoDeploymentsEnabled": true
+}

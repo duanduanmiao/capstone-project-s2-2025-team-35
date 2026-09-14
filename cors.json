@@ -1,0 +1,8 @@
+[
+  {
+    "AllowedHeaders": ["*"],
+    "AllowedMethods": ["GET","POST","PUT","HEAD","OPTIONS"],
+    "AllowedOrigins": ["https://cemsuoa.com"],
+    "ExposeHeaders": ["ETag","Location"]
+  }
+]

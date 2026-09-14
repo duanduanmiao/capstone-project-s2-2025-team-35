@@ -1,0 +1,5 @@
+{
+  "Cpu": "1 vCPU",
+  "Memory": "2 GB",
+  "InstanceRoleArn": "arn:aws:iam::193452400698:role/cems-team35-apprunner"
+}
