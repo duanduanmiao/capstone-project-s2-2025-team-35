@@ -29,10 +29,12 @@ Key features include:
 ---
 
 ## 🌐 Deployed Website
+⚠️ AWS access has expired, so the deployed environment is currently unavailable. Please run the project locally via `localhost`.
+
 **Live Production URL:**  
 🔗 https://cemsuoa.com
 
-**Deployed on AWS:**  
+**Previous AWS deployment:**  
 - **Frontend** → S3 + CloudFront (static hosting)  
 - **Backend** → App Runner  
 - **Database** → RDS (PostgreSQL)
@@ -102,9 +104,7 @@ dotnet run
 
 ## ▶️ Usage Instructions
 
-You can access and log in to CEMS **either via the deployed website**  
-👉 https://cemsuoa.com
-**or by running it locally** using the instructions above.
+The deployed website is currently unavailable. Access CEMS by running it locally using the instructions above.
 
 Once running:
 
